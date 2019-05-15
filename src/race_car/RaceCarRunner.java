@@ -23,5 +23,6 @@ public class RaceCarRunner {
 			car.overtake();
 		}
 		System.out.println(car.getPositionInRace());
+		System.out.println("You won!");
 	}
 }

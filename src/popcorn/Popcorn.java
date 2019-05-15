@@ -14,6 +14,7 @@ package popcorn;
  */
 
 class Microwave {
+	
 	private int cookTime;
 	Popcorn thingToBeCooked;
 
@@ -21,17 +22,17 @@ class Microwave {
 		System.out.println("Microwave says: a Microwave has been made.");
 	}
 
-	void putInMicrowave(Popcorn thingToBeCooked) {
+	public void putInMicrowave(Popcorn thingToBeCooked) {
 		System.out.println("Microwave says: popcorn put in microwave.");
 		this.thingToBeCooked = thingToBeCooked;
 	}
 
-	void setTime(int cookTimeInMinutes) {
+	public void setTime(int cookTimeInMinutes) {
 		this.cookTime = cookTimeInMinutes;
 		System.out.println("Microwave says: cook time is set to " + cookTime + " minutes.");
 	}
 
-	void startMicrowave() {
+	public void startMicrowave() {
 		if (thingToBeCooked == null) {
 			System.out.println("Microwave says: there's nothing in the microwave!");
 		} else {

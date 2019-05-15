@@ -22,11 +22,11 @@ public class HarryPotter {
 		System.out.println("making Harry Potter...");
 	}
 
-	void castSpell(String spell) {
+	public void castSpell(String spell) {
 		System.out.println("casting spell: " + spell);
 	}
 
-	void makeInvisible(boolean invisible) {
+	public void makeInvisible(boolean invisible) {
 		this.cloakOn = invisible;
 
 		if (cloakOn)
@@ -35,7 +35,7 @@ public class HarryPotter {
 			System.out.println("Harry is visible");
 	}
 
-	void spyOnSnape() {
+	public void spyOnSnape() {
 		System.out.println("Harry sees Professor Snape doing nefarious things.");
 	}
 
